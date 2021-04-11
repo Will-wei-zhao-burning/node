@@ -15,7 +15,7 @@ const createCommands = () =>{
     .command('create <project>')
     .description('clone a repo into a folder')
     .action(
-        createProjectAction()
+        createProjectAction
     )
 }
 

@@ -8,7 +8,7 @@ const {createCommands} = require('./lib/core/create')
 
 program.version(package.version);
 helpOptions();
-/* createCommands(); */
+createCommands();
 //编译
 program.parse(process.argv);
 
